@@ -11,6 +11,8 @@
 		88778C4A1E7EDE1A00B312C4 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88778C491E7EDE1A00B312C4 /* OCRViewController.swift */; };
 		88778C4C1E7EE10800B312C4 /* SwiftOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */; };
 		88778C501E7F02E300B312C4 /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */; };
+		88778C521E7F63C600B312C4 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88778C511E7F63C600B312C4 /* SheetViewController.swift */; };
+		88778C541E7F6DAB00B312C4 /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88778C531E7F6DAB00B312C4 /* GTMOAuth2.framework */; };
 		8883CA311E7E74AC00EF3265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA301E7E74AC00EF3265 /* AppDelegate.swift */; };
 		8883CA331E7E74AC00EF3265 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA321E7E74AC00EF3265 /* TopViewController.swift */; };
 		8883CA361E7E74AC00EF3265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883CA341E7E74AC00EF3265 /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		88778C491E7EDE1A00B312C4 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
 		88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftOCR.framework; path = "../../../Library/Developer/Xcode/DerivedData/easydesu-frausszwwdytwlhiuhgafayacjjg/Build/Products/Debug-iphoneos/SwiftOCR/SwiftOCR.framework"; sourceTree = "<group>"; };
 		88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAPIClientForREST.framework; path = "Pods/../build/Release-iphoneos/GoogleAPIClientForREST/GoogleAPIClientForREST.framework"; sourceTree = "<group>"; };
+		88778C511E7F63C600B312C4 /* SheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		88778C531E7F6DAB00B312C4 /* GTMOAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMOAuth2.framework; path = "../../../Library/Developer/Xcode/DerivedData/easydesu-frausszwwdytwlhiuhgafayacjjg/Build/Products/Debug-iphoneos/GTMOAuth2/GTMOAuth2.framework"; sourceTree = "<group>"; };
 		8883CA2D1E7E74AB00EF3265 /* easydesu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easydesu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8883CA301E7E74AC00EF3265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8883CA321E7E74AC00EF3265 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88778C541E7F6DAB00B312C4 /* GTMOAuth2.framework in Frameworks */,
 				88778C501E7F02E300B312C4 /* GoogleAPIClientForREST.framework in Frameworks */,
 				88778C4C1E7EE10800B312C4 /* SwiftOCR.framework in Frameworks */,
 				D8EFD98365AA3B76F8A6D906 /* Pods_easydesu.framework in Frameworks */,
@@ -141,6 +146,7 @@
 				8883CA321E7E74AC00EF3265 /* TopViewController.swift */,
 				8883CA5E1E7E785300EF3265 /* FormViewController.swift */,
 				88778C491E7EDE1A00B312C4 /* OCRViewController.swift */,
+				88778C511E7F63C600B312C4 /* SheetViewController.swift */,
 				8883CA341E7E74AC00EF3265 /* Main.storyboard */,
 				8883CA371E7E74AC00EF3265 /* Assets.xcassets */,
 				8883CA391E7E74AC00EF3265 /* LaunchScreen.storyboard */,
@@ -170,6 +176,7 @@
 		E6D14CEFBA25F590E70A4FF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88778C531E7F6DAB00B312C4 /* GTMOAuth2.framework */,
 				88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */,
 				88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */,
 				182C95324672D19223922292 /* Pods_easydesu.framework */,
@@ -462,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8883CA5F1E7E785300EF3265 /* FormViewController.swift in Sources */,
+				88778C521E7F63C600B312C4 /* SheetViewController.swift in Sources */,
 				88778C4A1E7EDE1A00B312C4 /* OCRViewController.swift in Sources */,
 				8883CA331E7E74AC00EF3265 /* TopViewController.swift in Sources */,
 				8883CA311E7E74AC00EF3265 /* AppDelegate.swift in Sources */,

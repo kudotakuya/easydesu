@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6168C569AC10FE38B0C39AACCC1EC6FF7BC805F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6168C569AC10FE38B0C39AACCC1EC6FF7BC805F3" : 9223372036854775807,
+    "C2DF0243C3D603F14BC9097ADB2E5594C42D3904" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9B7057F5-0D07-456E-96FA-962E915715A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6168C569AC10FE38B0C39AACCC1EC6FF7BC805F3" : "easydesu\/",
+    "C2DF0243C3D603F14BC9097ADB2E5594C42D3904" : "SwiftOCR\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "easydesu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "easydesu.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kudotakuya\/easydesu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6168C569AC10FE38B0C39AACCC1EC6FF7BC805F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garnele007\/SwiftOCR.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C2DF0243C3D603F14BC9097ADB2E5594C42D3904"
+    }
+  ]
+}
