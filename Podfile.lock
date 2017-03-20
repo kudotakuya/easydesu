@@ -1,0 +1,44 @@
+PODS:
+  - GoogleAPIClientForREST/Core (1.1.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Sheets (1.1.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GPUImage (0.1.7)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - SwiftOCR (1.0):
+    - GPUImage
+
+DEPENDENCIES:
+  - GoogleAPIClientForREST/Sheets (~> 1.1.1)
+  - GPUImage (from `https://github.com/BradLarson/GPUImage.git`)
+  - GTMOAuth2 (~> 1.1.4)
+  - SwiftOCR (from `../SwiftOCR`)
+
+EXTERNAL SOURCES:
+  GPUImage:
+    :git: https://github.com/BradLarson/GPUImage.git
+  SwiftOCR:
+    :path: "../SwiftOCR"
+
+CHECKOUT OPTIONS:
+  GPUImage:
+    :commit: 167b0389bc6e9dc4bb0121550f91d8d5d6412c53
+    :git: https://github.com/BradLarson/GPUImage.git
+
+SPEC CHECKSUMS:
+  GoogleAPIClientForREST: f272e35f7fe9f80ab232756c798adc32245ece8c
+  GPUImage: bd7e201b9aa91e85f401ed7a6d9867a07a404693
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  SwiftOCR: f7f254fe35e8b7a0d32bded839ded032e89852ea
+
+PODFILE CHECKSUM: b20ee25064bfaeecf2902f928a2ae9e6d2f1f598
+
+COCOAPODS: 1.2.0

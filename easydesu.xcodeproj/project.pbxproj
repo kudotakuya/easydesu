@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2F16122720B9D9B6D5A8FE /* Pods_easydesuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB1535A653A469DE42EBD75 /* Pods_easydesuTests.framework */; };
+		88778C4A1E7EDE1A00B312C4 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88778C491E7EDE1A00B312C4 /* OCRViewController.swift */; };
+		88778C4C1E7EE10800B312C4 /* SwiftOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */; };
+		88778C501E7F02E300B312C4 /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */; };
+		8883CA311E7E74AC00EF3265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA301E7E74AC00EF3265 /* AppDelegate.swift */; };
+		8883CA331E7E74AC00EF3265 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA321E7E74AC00EF3265 /* TopViewController.swift */; };
+		8883CA361E7E74AC00EF3265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883CA341E7E74AC00EF3265 /* Main.storyboard */; };
+		8883CA381E7E74AC00EF3265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883CA371E7E74AC00EF3265 /* Assets.xcassets */; };
+		8883CA3B1E7E74AC00EF3265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8883CA391E7E74AC00EF3265 /* LaunchScreen.storyboard */; };
+		8883CA461E7E74AC00EF3265 /* easydesuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA451E7E74AC00EF3265 /* easydesuTests.swift */; };
+		8883CA511E7E74AC00EF3265 /* easydesuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA501E7E74AC00EF3265 /* easydesuUITests.swift */; };
+		8883CA5F1E7E785300EF3265 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883CA5E1E7E785300EF3265 /* FormViewController.swift */; };
+		D702B145A21DF42760432C7C /* Pods_easydesuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEBD9F1A6FB4A5715277FD /* Pods_easydesuUITests.framework */; };
+		D8EFD98365AA3B76F8A6D906 /* Pods_easydesu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C95324672D19223922292 /* Pods_easydesu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8883CA421E7E74AC00EF3265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8883CA251E7E74A900EF3265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8883CA2C1E7E74A900EF3265;
+			remoteInfo = easydesu;
+		};
+		8883CA4D1E7E74AC00EF3265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8883CA251E7E74A900EF3265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8883CA2C1E7E74A900EF3265;
+			remoteInfo = easydesu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EEBD9F1A6FB4A5715277FD /* Pods_easydesuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easydesuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3288C33C22616D8E083A3E /* Pods-easydesuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-easydesuUITests/Pods-easydesuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		182C95324672D19223922292 /* Pods_easydesu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easydesu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB1535A653A469DE42EBD75 /* Pods_easydesuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easydesuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C335FF7456598041A1EDC8 /* Pods-easydesu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesu.release.xcconfig"; path = "Pods/Target Support Files/Pods-easydesu/Pods-easydesu.release.xcconfig"; sourceTree = "<group>"; };
+		77A0160EA70DDB829F232F97 /* Pods-easydesuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easydesuTests/Pods-easydesuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77D76EE0FD53C5EAF3D9BA54 /* Pods-easydesu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easydesu/Pods-easydesu.debug.xcconfig"; sourceTree = "<group>"; };
+		88778C491E7EDE1A00B312C4 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftOCR.framework; path = "../../../Library/Developer/Xcode/DerivedData/easydesu-frausszwwdytwlhiuhgafayacjjg/Build/Products/Debug-iphoneos/SwiftOCR/SwiftOCR.framework"; sourceTree = "<group>"; };
+		88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAPIClientForREST.framework; path = "Pods/../build/Release-iphoneos/GoogleAPIClientForREST/GoogleAPIClientForREST.framework"; sourceTree = "<group>"; };
+		8883CA2D1E7E74AB00EF3265 /* easydesu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easydesu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8883CA301E7E74AC00EF3265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8883CA321E7E74AC00EF3265 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		8883CA351E7E74AC00EF3265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8883CA371E7E74AC00EF3265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8883CA3A1E7E74AC00EF3265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8883CA3C1E7E74AC00EF3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8883CA411E7E74AC00EF3265 /* easydesuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easydesuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8883CA451E7E74AC00EF3265 /* easydesuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easydesuTests.swift; sourceTree = "<group>"; };
+		8883CA471E7E74AC00EF3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8883CA4C1E7E74AC00EF3265 /* easydesuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easydesuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8883CA501E7E74AC00EF3265 /* easydesuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easydesuUITests.swift; sourceTree = "<group>"; };
+		8883CA521E7E74AC00EF3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8883CA5E1E7E785300EF3265 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		AF239DE1B0C59C8C8C485C7E /* Pods-easydesuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-easydesuTests/Pods-easydesuTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF4F2C7EB672E3A43DD62FEC /* Pods-easydesuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easydesuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easydesuUITests/Pods-easydesuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8883CA2A1E7E74A900EF3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88778C501E7F02E300B312C4 /* GoogleAPIClientForREST.framework in Frameworks */,
+				88778C4C1E7EE10800B312C4 /* SwiftOCR.framework in Frameworks */,
+				D8EFD98365AA3B76F8A6D906 /* Pods_easydesu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA3E1E7E74AC00EF3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F16122720B9D9B6D5A8FE /* Pods_easydesuTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA491E7E74AC00EF3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D702B145A21DF42760432C7C /* Pods_easydesuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C524C05BFAD8477589A257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77D76EE0FD53C5EAF3D9BA54 /* Pods-easydesu.debug.xcconfig */,
+				50C335FF7456598041A1EDC8 /* Pods-easydesu.release.xcconfig */,
+				77A0160EA70DDB829F232F97 /* Pods-easydesuTests.debug.xcconfig */,
+				AF239DE1B0C59C8C8C485C7E /* Pods-easydesuTests.release.xcconfig */,
+				AF4F2C7EB672E3A43DD62FEC /* Pods-easydesuUITests.debug.xcconfig */,
+				0C3288C33C22616D8E083A3E /* Pods-easydesuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8883CA241E7E74A900EF3265 = {
+			isa = PBXGroup;
+			children = (
+				8883CA2F1E7E74AB00EF3265 /* easydesu */,
+				8883CA441E7E74AC00EF3265 /* easydesuTests */,
+				8883CA4F1E7E74AC00EF3265 /* easydesuUITests */,
+				8883CA2E1E7E74AB00EF3265 /* Products */,
+				27C524C05BFAD8477589A257 /* Pods */,
+				E6D14CEFBA25F590E70A4FF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8883CA2E1E7E74AB00EF3265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8883CA2D1E7E74AB00EF3265 /* easydesu.app */,
+				8883CA411E7E74AC00EF3265 /* easydesuTests.xctest */,
+				8883CA4C1E7E74AC00EF3265 /* easydesuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8883CA2F1E7E74AB00EF3265 /* easydesu */ = {
+			isa = PBXGroup;
+			children = (
+				8883CA301E7E74AC00EF3265 /* AppDelegate.swift */,
+				8883CA321E7E74AC00EF3265 /* TopViewController.swift */,
+				8883CA5E1E7E785300EF3265 /* FormViewController.swift */,
+				88778C491E7EDE1A00B312C4 /* OCRViewController.swift */,
+				8883CA341E7E74AC00EF3265 /* Main.storyboard */,
+				8883CA371E7E74AC00EF3265 /* Assets.xcassets */,
+				8883CA391E7E74AC00EF3265 /* LaunchScreen.storyboard */,
+				8883CA3C1E7E74AC00EF3265 /* Info.plist */,
+			);
+			path = easydesu;
+			sourceTree = "<group>";
+		};
+		8883CA441E7E74AC00EF3265 /* easydesuTests */ = {
+			isa = PBXGroup;
+			children = (
+				8883CA451E7E74AC00EF3265 /* easydesuTests.swift */,
+				8883CA471E7E74AC00EF3265 /* Info.plist */,
+			);
+			path = easydesuTests;
+			sourceTree = "<group>";
+		};
+		8883CA4F1E7E74AC00EF3265 /* easydesuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8883CA501E7E74AC00EF3265 /* easydesuUITests.swift */,
+				8883CA521E7E74AC00EF3265 /* Info.plist */,
+			);
+			path = easydesuUITests;
+			sourceTree = "<group>";
+		};
+		E6D14CEFBA25F590E70A4FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88778C4F1E7F02E300B312C4 /* GoogleAPIClientForREST.framework */,
+				88778C4B1E7EE10800B312C4 /* SwiftOCR.framework */,
+				182C95324672D19223922292 /* Pods_easydesu.framework */,
+				1CB1535A653A469DE42EBD75 /* Pods_easydesuTests.framework */,
+				06EEBD9F1A6FB4A5715277FD /* Pods_easydesuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8883CA2C1E7E74A900EF3265 /* easydesu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8883CA551E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesu" */;
+			buildPhases = (
+				4D1BDBBC5E129CE799946771 /* [CP] Check Pods Manifest.lock */,
+				8883CA291E7E74A900EF3265 /* Sources */,
+				8883CA2A1E7E74A900EF3265 /* Frameworks */,
+				8883CA2B1E7E74A900EF3265 /* Resources */,
+				D832630BE2293DA92A8D01BB /* [CP] Embed Pods Frameworks */,
+				F5F1BF713ED33D45D1482547 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easydesu;
+			productName = easydesu;
+			productReference = 8883CA2D1E7E74AB00EF3265 /* easydesu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8883CA401E7E74AC00EF3265 /* easydesuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8883CA581E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesuTests" */;
+			buildPhases = (
+				5AF4625FE2573FC90B74AEF4 /* [CP] Check Pods Manifest.lock */,
+				8883CA3D1E7E74AC00EF3265 /* Sources */,
+				8883CA3E1E7E74AC00EF3265 /* Frameworks */,
+				8883CA3F1E7E74AC00EF3265 /* Resources */,
+				C7D8C7FD72529048E4330975 /* [CP] Embed Pods Frameworks */,
+				2253AF7E931BE07B46823389 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8883CA431E7E74AC00EF3265 /* PBXTargetDependency */,
+			);
+			name = easydesuTests;
+			productName = easydesuTests;
+			productReference = 8883CA411E7E74AC00EF3265 /* easydesuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8883CA4B1E7E74AC00EF3265 /* easydesuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8883CA5B1E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesuUITests" */;
+			buildPhases = (
+				A396DDF68FC0C2C5FAC79373 /* [CP] Check Pods Manifest.lock */,
+				8883CA481E7E74AC00EF3265 /* Sources */,
+				8883CA491E7E74AC00EF3265 /* Frameworks */,
+				8883CA4A1E7E74AC00EF3265 /* Resources */,
+				E293792801BDFACDF3DD4EA6 /* [CP] Embed Pods Frameworks */,
+				832CC7ED5B67A4B576E6BB7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8883CA4E1E7E74AC00EF3265 /* PBXTargetDependency */,
+			);
+			name = easydesuUITests;
+			productName = easydesuUITests;
+			productReference = 8883CA4C1E7E74AC00EF3265 /* easydesuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8883CA251E7E74A900EF3265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kudo Takuya";
+				TargetAttributes = {
+					8883CA2C1E7E74A900EF3265 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 89368WAFTH;
+						ProvisioningStyle = Automatic;
+					};
+					8883CA401E7E74AC00EF3265 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8883CA2C1E7E74A900EF3265;
+					};
+					8883CA4B1E7E74AC00EF3265 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8883CA2C1E7E74A900EF3265;
+					};
+				};
+			};
+			buildConfigurationList = 8883CA281E7E74A900EF3265 /* Build configuration list for PBXProject "easydesu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8883CA241E7E74A900EF3265;
+			productRefGroup = 8883CA2E1E7E74AB00EF3265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8883CA2C1E7E74A900EF3265 /* easydesu */,
+				8883CA401E7E74AC00EF3265 /* easydesuTests */,
+				8883CA4B1E7E74AC00EF3265 /* easydesuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8883CA2B1E7E74A900EF3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883CA3B1E7E74AC00EF3265 /* LaunchScreen.storyboard in Resources */,
+				8883CA381E7E74AC00EF3265 /* Assets.xcassets in Resources */,
+				8883CA361E7E74AC00EF3265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA3F1E7E74AC00EF3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA4A1E7E74AC00EF3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2253AF7E931BE07B46823389 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesuTests/Pods-easydesuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D1BDBBC5E129CE799946771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF4625FE2573FC90B74AEF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		832CC7ED5B67A4B576E6BB7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesuUITests/Pods-easydesuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A396DDF68FC0C2C5FAC79373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D8C7FD72529048E4330975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesuTests/Pods-easydesuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D832630BE2293DA92A8D01BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesu/Pods-easydesu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E293792801BDFACDF3DD4EA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesuUITests/Pods-easydesuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F1BF713ED33D45D1482547 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easydesu/Pods-easydesu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8883CA291E7E74A900EF3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883CA5F1E7E785300EF3265 /* FormViewController.swift in Sources */,
+				88778C4A1E7EDE1A00B312C4 /* OCRViewController.swift in Sources */,
+				8883CA331E7E74AC00EF3265 /* TopViewController.swift in Sources */,
+				8883CA311E7E74AC00EF3265 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA3D1E7E74AC00EF3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883CA461E7E74AC00EF3265 /* easydesuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8883CA481E7E74AC00EF3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8883CA511E7E74AC00EF3265 /* easydesuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8883CA431E7E74AC00EF3265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8883CA2C1E7E74A900EF3265 /* easydesu */;
+			targetProxy = 8883CA421E7E74AC00EF3265 /* PBXContainerItemProxy */;
+		};
+		8883CA4E1E7E74AC00EF3265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8883CA2C1E7E74A900EF3265 /* easydesu */;
+			targetProxy = 8883CA4D1E7E74AC00EF3265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8883CA341E7E74AC00EF3265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8883CA351E7E74AC00EF3265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8883CA391E7E74AC00EF3265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8883CA3A1E7E74AC00EF3265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8883CA531E7E74AC00EF3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8883CA541E7E74AC00EF3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8883CA561E7E74AC00EF3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D76EE0FD53C5EAF3D9BA54 /* Pods-easydesu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89368WAFTH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleAPIClientForREST",
+				);
+				INFOPLIST_FILE = easydesu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8883CA571E7E74AC00EF3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C335FF7456598041A1EDC8 /* Pods-easydesu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89368WAFTH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/GoogleAPIClientForREST",
+				);
+				INFOPLIST_FILE = easydesu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8883CA591E7E74AC00EF3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A0160EA70DDB829F232F97 /* Pods-easydesuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = easydesuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easydesu.app/easydesu";
+			};
+			name = Debug;
+		};
+		8883CA5A1E7E74AC00EF3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF239DE1B0C59C8C8C485C7E /* Pods-easydesuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = easydesuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easydesu.app/easydesu";
+			};
+			name = Release;
+		};
+		8883CA5C1E7E74AC00EF3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4F2C7EB672E3A43DD62FEC /* Pods-easydesuUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = easydesuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = easydesu;
+			};
+			name = Debug;
+		};
+		8883CA5D1E7E74AC00EF3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3288C33C22616D8E083A3E /* Pods-easydesuUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = easydesuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.name.easydesuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = easydesu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8883CA281E7E74A900EF3265 /* Build configuration list for PBXProject "easydesu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883CA531E7E74AC00EF3265 /* Debug */,
+				8883CA541E7E74AC00EF3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8883CA551E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883CA561E7E74AC00EF3265 /* Debug */,
+				8883CA571E7E74AC00EF3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8883CA581E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883CA591E7E74AC00EF3265 /* Debug */,
+				8883CA5A1E7E74AC00EF3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8883CA5B1E7E74AC00EF3265 /* Build configuration list for PBXNativeTarget "easydesuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883CA5C1E7E74AC00EF3265 /* Debug */,
+				8883CA5D1E7E74AC00EF3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8883CA251E7E74A900EF3265 /* Project object */;
+}
